@@ -15,6 +15,7 @@
 		CE1594491F991EDF00EF06EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1594481F991EDF00EF06EC /* main.m */; };
 		CE1594531F991EE000EF06EC /* WavyCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1594521F991EE000EF06EC /* WavyCollectionTests.m */; };
 		CE15945E1F991EE000EF06EC /* WavyCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE15945D1F991EE000EF06EC /* WavyCollectionUITests.m */; };
+		CE15946D1F99229D00EF06EC /* WavyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CE15946C1F99229D00EF06EC /* WavyFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CE1594591F991EE000EF06EC /* WavyCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WavyCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE15945D1F991EE000EF06EC /* WavyCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavyCollectionUITests.m; sourceTree = "<group>"; };
 		CE15945F1F991EE000EF06EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE15946B1F99229D00EF06EC /* WavyFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WavyFlowLayout.h; sourceTree = "<group>"; };
+		CE15946C1F99229D00EF06EC /* WavyFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavyFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				CE15943C1F991EDF00EF06EC /* ViewController.h */,
 				CE15943D1F991EDF00EF06EC /* ViewController.m */,
 				CE15943F1F991EDF00EF06EC /* Main.storyboard */,
+				CE15946B1F99229D00EF06EC /* WavyFlowLayout.h */,
+				CE15946C1F99229D00EF06EC /* WavyFlowLayout.m */,
 				CE1594421F991EDF00EF06EC /* Assets.xcassets */,
 				CE1594441F991EDF00EF06EC /* LaunchScreen.storyboard */,
 				CE1594471F991EDF00EF06EC /* Info.plist */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE15946D1F99229D00EF06EC /* WavyFlowLayout.m in Sources */,
 				CE15943E1F991EDF00EF06EC /* ViewController.m in Sources */,
 				CE1594491F991EDF00EF06EC /* main.m in Sources */,
 				CE15943B1F991EDF00EF06EC /* AppDelegate.m in Sources */,
@@ -436,7 +442,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanjayshah.WavyCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -450,7 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanjayshah.WavyCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
